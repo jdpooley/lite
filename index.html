@@ -20,7 +20,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="suncalc.min.js"></script>
 	<script type="text/javascript" src="functions.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
@@ -28,9 +27,10 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <script src="typed.min.js"></script>
     <script>
-	$(window).load(function(){
+	function(){
 		$(".element").typed({
-			strings: ["Helping innovative<br>companies move faster "],
+			stringsElement: $('typed-strings')
+            contentType: 'text'
 			typeSpeed: 20,
             backDelay: 1000,
             showCursor: true,
@@ -45,10 +45,12 @@
     <div id="container">
         <div id="content" class="animated fadeIn">
             <h1>John D. Pooley</h1>
-	    <p>test<span class="element"></span></p>
+            <div id="typed-strings">
             <p>John D. Pooley is an independent marketing consultant based in Liverpool, UK.</p>
             <p>Most recently he has headed up the marketing team at <a href="https://muralswallpaper.co.uk" target="_blank">Murals Wallpaper</a> and <a href="https://milexa.com" target="_blank">Milexa</a>. He has previously advised clients such as <a href="http://www.zoggs.com" target="_blank">Zoggs</a>, <a href="http://www.mars.com/uk/en/index.aspx" target="_blank">Mars</a> and <a href="http://www.danone.cz/" target="_blank">Danone</a>. </p>
             <p><a href="mailto:jdpooley@gmail.com">jdpooley@gmail.com</a></p>
+            </div>
+            <span id="typed"></span>
         </div>
     </div>
 <script>
