@@ -53,6 +53,15 @@ body.night {
 	justify-content: center;
 }
 
+
+#backgroundImage {
+    opacity: 0.5;
+    position: fixed;
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: hidden;
+}
+
 #content {
 	margin: 9vw;
 	position: relative;
