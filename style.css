@@ -90,6 +90,7 @@ a {
 
 a:hover {
     opacity: .5;
+    padding-bottom: 2px;
 
 }
 
