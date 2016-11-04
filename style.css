@@ -35,10 +35,14 @@ body.night {
 
 #backgroundImage {
     opacity: 0.25;
-    position: fixed;
+    background-attachment: fixed;
+    background-position: center; 
+    
+/*  position: fixed;
     padding-left: 20%;
     padding-right: 20%;
     overflow: hidden;
+*/	
 }
 
 #container {
