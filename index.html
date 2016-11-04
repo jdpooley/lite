@@ -36,47 +36,12 @@
     <script>
 	function getLocation(){$.ajax({url:"http://geoip.nekudo.com/api/",type:"POST",dataType:"jsonp",success:function(e){var t=e.location.latitude,n=e.location.longitude,s=SunCalc.getTimes(new Date,t,n);sunrise=parseInt(s.sunrise.getHours()+""+(s.sunrise.getMinutes()<10?"0":"")+s.sunrise.getMinutes()),sunset=parseInt(s.sunset.getHours()+""+(s.sunset.getMinutes()<10?"0":"")+s.sunset.getMinutes()),setTimeout(function(){checkTime()},500),update=setInterval(checkTime,1e3)}})}function checkTime(){var e=new Date,t=parseInt(e.getHours()+""+(e.getMinutes()<10?"0":"")+e.getMinutes()),n=document.body;sunrise>t||t>sunset?n.classList.add("night"):n.classList.remove("night")}var sunrise=[],sunset=[];$(document).ready(function(){document.addEventListener("touchstart",function(){},!0),getLocation()});
     </script>
-	<!--Start JS for hover-->
-<script type="text/javascript">jQuery(document).ready(function($) {
-
-$('#firstLink’).hover(
-  function() {
-    $('#image1’).addClass('show');
-  },
-  function() {
-    $('#image1').removeClass('show');
-  }
-);
-
-$('#secondLink’).hover(
-  function() {
-    $(‘#image2').addClass('show');
-  },
-  function() {
-    $(‘#image2’).removeClass('show');
-  }
-);
-
-$('#thirdLink’).hover(
-  function() {
-    $(‘#image3').addClass('show');
-  },
-  function() {
-    $('#image3').removeClass('show');
-  }
-);
-</script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
 </head>
 <body>
 <!--<div id="backgroundImage"><img src="confetti-bg.png"/></div>-->
-<div id=“img-container”>
-<img id=“image1” src=“ms-icon-310x310.png” alt=“#”>
-<img id=“image2” src=“ms-icon-310x310.png” alt=“#”>
-<img id=“image3 ”src=“ms-icon-310x310.png” alt=“#”>
-</div>
     <div id="container">
         <div id="content" class="animated fadeIn">
             <h1>John D. Pooley</h1>
