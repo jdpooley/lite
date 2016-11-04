@@ -35,8 +35,10 @@ body.night {
 
 #backgroundImage {
     opacity: 0.25;
-    background-attachment: fixed;
-    background-position: center; 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
     
 /*  position: fixed;
     padding-left: 20%;
