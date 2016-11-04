@@ -36,52 +36,6 @@
     <script>
 	function getLocation(){$.ajax({url:"http://geoip.nekudo.com/api/",type:"POST",dataType:"jsonp",success:function(e){var t=e.location.latitude,n=e.location.longitude,s=SunCalc.getTimes(new Date,t,n);sunrise=parseInt(s.sunrise.getHours()+""+(s.sunrise.getMinutes()<10?"0":"")+s.sunrise.getMinutes()),sunset=parseInt(s.sunset.getHours()+""+(s.sunset.getMinutes()<10?"0":"")+s.sunset.getMinutes()),setTimeout(function(){checkTime()},500),update=setInterval(checkTime,1e3)}})}function checkTime(){var e=new Date,t=parseInt(e.getHours()+""+(e.getMinutes()<10?"0":"")+e.getMinutes()),n=document.body;sunrise>t||t>sunset?n.classList.add("night"):n.classList.remove("night")}var sunrise=[],sunset=[];$(document).ready(function(){document.addEventListener("touchstart",function(){},!0),getLocation()});
     </script>
-	<script type="text/javascript">
-		jQuery(document).ready(function($)) {
-$('#first').hover(
-  function() {
-    $('#bg-img-1').addClass('show');
-  },
-  function() {
-    $('#bg-img-1').removeClass('show');
-  }
-);
-
-$('#second').hover(
-  function() {
-    $('#bg-img-2').addClass('show');
-  },
-  function() {
-    $('#bg-img-2').removeClass('show');
-  }
-);
-
-$('#third').hover(
-  function() {
-    $('#bg-img-3').addClass('show');
-  },
-  function() {
-    $('#bg-img-3').removeClass('show');
-  }
-);
-		
-$('#fourth').hover(
-  function() {
-    $('#bg-img-4').addClass('show');
-  },
-  function() {
-    $('#bg-img-4').removeClass('show');
-  }
-);
-		
-$('#fifth').hover(
-  function() {
-    $('#bg-img-5').addClass('show');
-  },
-  function() {
-    $('#bg-img-5').removeClass('show');
-  }
-);
 </script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
@@ -97,18 +51,6 @@ $('#fifth').hover(
             <p><a href="mailto:jdpooley@gmail.com">jdpooley@gmail.com</a> // <a href="http://linkedin.com/in/jdpooley" target="_blank">LinkedIn</a> // <a href="https://twitter.com/johndpooley" target="_blank">Twitter</a></p>
         </div>
     </div>
-	<!--Images Start-->
-    <div class="content-container" display="none">
-    <img id="bg-img-1" src="http://madebyheart.co.uk/wp-content/uploads/2016/07/home_tbs.jpg">
-    <img id="bg-img-2" src="http://madebyheart.co.uk/wp-content/uploads/2016/07/home_thrively.jpg">
-    <img id="bg-img-3" src="http://madebyheart.co.uk/wp-content/uploads/2016/07/home_lambeth.jpg">
-    <img id="bg-img-4" src="http://madebyheart.co.uk/wp-content/uploads/2016/07/home_lesalon.jpg">
-    <img id="bg-img-5" src="http://madebyheart.co.uk/wp-content/uploads/2016/07/home_mb.jpg">
-    <img id="bg-img-6" src="http://madebyheart.co.uk/wp-content/uploads/2016/07/home_spottin.jpg">
-    <img id="bg-img-7" src="http://madebyheart.co.uk/wp-content/uploads/2016/07/home_koko.jpg">
-     <img id="bg-img-8" src="http://madebyheart.co.uk/wp-content/uploads/2016/07/home_mdo.jpg">
-	</div>
-	<!--Images End-->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
