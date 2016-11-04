@@ -87,7 +87,7 @@ p:last-child {
 a {
 	text-decoration: none;
 	color: inherit;
-	border-bottom: .5vw solid;
+	border-bottom: .1vw solid;
 }
 
 a:hover {
