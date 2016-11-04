@@ -36,8 +36,8 @@ body.night {
 #backgroundImage {
     opacity: 0.25;
     position: fixed;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 50%;
+    padding-right: 50%;
     overflow: hidden;
 }
 
