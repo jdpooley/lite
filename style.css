@@ -34,7 +34,7 @@ body.night {
 }
 
 #backgroundImage {
-    opacity: 0.25;
+  opacity: 0.5;
   position: fixed;
   top: 50%;
   left: 50%;
