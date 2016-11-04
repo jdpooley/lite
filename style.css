@@ -90,7 +90,12 @@ a {
 
 a:hover {
     opacity: .5;
-    padding-bottom: 5px;	
+    padding-bottom: 8px;
+  -webkit-transition: padding 100ms;
+  -moz-transition: padding 100ms;
+  -ms-transition: padding 100ms;
+  -o-transition: padding 100ms;
+  transition: padding 100ms; 
 }
 
 a:active {
