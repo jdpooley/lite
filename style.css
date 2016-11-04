@@ -38,13 +38,7 @@ body.night {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-    
-/*  position: fixed;
-    padding-left: 20%;
-    padding-right: 20%;
-    overflow: hidden;
-*/	
+  transform: translate(-50%, -50%);	
 }
 
 #container {
