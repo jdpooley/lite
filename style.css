@@ -88,17 +88,9 @@ a {
 	border-bottom: .1vw solid;
 }
 
-/* a:hover {
+a:hover {
     opacity: .5;
-    padding-bottom: 5px; */
-
-a:hover:after {
--webkit-animation:hover .4s;
-animation:hover .4s;
--webkit-animation-timing-function:ease-out;
-animation-timing-function:ease-out;
--webkit-animation-fill-mode:forwards;
-animation-fill-mode:forwards
+    padding-bottom: 5px;	
 }
 
 a:active {
