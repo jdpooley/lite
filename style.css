@@ -90,7 +90,7 @@ a {
 
 a:hover {
     opacity: .5;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
   -webkit-transition: padding 100ms;
   -moz-transition: padding 100ms;
   -ms-transition: padding 100ms;
