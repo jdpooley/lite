@@ -142,3 +142,43 @@ a:active {
 	}
 	
 }
+
+#bg-img-1 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  top: 10%; left: 0; bottom: 0; right: 0;
+   z-index: -1;
+}
+
+#bg-img-2 {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    z-index: -1;
+}
+
+#bg-img-3 {
+    position: absolute;
+    width: 42%;
+    left: 5%;
+    top: 3%;
+    z-index: -1;
+}
+
+#bg-img-4 {
+    position: absolute;
+    width: 28%;
+    right: 5%;
+    top: 10%;
+    z-index: -1;
+}
+
+#bg-img-5 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  top: 0; left: 0; bottom: 0; right: 0;
+    z-index: -1;
