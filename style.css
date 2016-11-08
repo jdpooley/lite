@@ -145,12 +145,19 @@ p:last-child {
 	#container {
 		position: relative;
 	}
+	
+	.threebox {
+		display: none;
+	}
 }
 
 @media screen and (orientation:landscape) and (max-width: 736px) {
 	
 	#container {
 		position: relative;
+	}
+	.threebox {
+		display: none;
 	}
 	
 }
@@ -173,6 +180,10 @@ p:last-child {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom:50px;
+}
+
+
+	
 }
 
 .back {
