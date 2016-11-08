@@ -192,8 +192,16 @@ p:last-child {
     padding-bottom:50px;
 }
 
-.threebox-mobile {
-	    list-style-type: square;
+.threebox-title {
+    font-size: 1.24vw;
+    text-align: left;
+    margin: auto;
+    float: left;
+    font-weight: 400;
+    width: 30%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom:50px;
 }
 	
 }
