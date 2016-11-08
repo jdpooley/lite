@@ -142,7 +142,7 @@ p:last-child {
 		display: none;
 	}
 	.threebox-mobile {
-		display: inherit;
+		display: auto;
 	}
 }
 
@@ -156,7 +156,7 @@ p:last-child {
 		display: none;
 	}
 	.threebox-mobile {
-		display: inherit;
+		display: auto;
 	}
 }
 
@@ -169,7 +169,7 @@ p:last-child {
 		display: none;
 	}
 	.threebox-mobile {
-		display: inherit;
+		display: auto;
 	}
 }
 
