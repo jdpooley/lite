@@ -126,6 +126,15 @@ p:last-child {
     
 }
 
+.threebox-container h2 {
+    font-size: 1.2vw;	
+}
+
+.threebox-container h2:active + p{
+    display: block;	
+}
+
+
 .threebox {
     font-size: 1.14vw;
     text-align: left;
@@ -138,16 +147,6 @@ p:last-child {
     padding-bottom:50px;
 }
 
-.threebox p{
-}
-
-.threebox h2 {
-    font-size: 1.2vw;	
-}
-
-.threebox h2:active p{
-    display: block;	
-}
 
 
 
