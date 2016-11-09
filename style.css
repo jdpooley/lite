@@ -138,13 +138,9 @@ p:last-child {
 .threebox {
     font-size: 1.14vw;
     text-align: left;
-    margin: auto;
-    float: left;
     font-weight: 300;
-    width: 30%;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom:50px;
+    width: 50vw;
+    display:none;
 }
 
 
@@ -163,6 +159,10 @@ p:last-child {
 
 	a {
 		border-bottom: 1px solid;
+	}
+	
+	.threebox {
+	display:block;
 	}
 }
 
