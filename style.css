@@ -115,7 +115,7 @@ p:last-child {
 
 .back {
     position: absolute;
-    bottom:.05%;
+    bottom:-10px;
 }
 
 
