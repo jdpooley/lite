@@ -97,7 +97,6 @@ a:active {
 	opacity: .3;
 }
 
-
 h1 {
 	position: fixed;
 	top: -99999px;
@@ -114,6 +113,45 @@ p:last-child {
 	margin-bottom: 0;
 }
 
+.back {
+    position: absolute;
+    bottom:1%;
+}
+
+
+.threebox-container {
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.threebox {
+    font-size: 1.14vw;
+    text-align: left;
+    margin: auto;
+    float: left;
+    font-weight: 300;
+    width: 30%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom:50px;
+}
+
+.threebox p{
+}
+
+.threebox h1 {
+    font-size: 1.2vw;	
+}
+
+.threebox h1:active p{
+    display: block;	
+}
+
+
+
+/* Responsive Media Queries */
 @media only screen and (max-width: 1100px) {	
 	
 	body {
@@ -138,11 +176,8 @@ p:last-child {
 	p {
 		margin-bottom: 24px;
 	}
-	.threebox {
+	.threebox p{
 		display: none;
-	}
-	.threebox-mobile {
-		display: auto;
 	}
 }
 
@@ -152,11 +187,8 @@ p:last-child {
 		position: relative;
 	}
 	
-	.threebox {
+	.threebox p{
 		display: none;
-	}
-	.threebox-mobile {
-		display: auto;
 	}
 }
 
@@ -165,51 +197,7 @@ p:last-child {
 	#container {
 		position: relative;
 	}
-	.threebox {
+	.threebox p{
 		display: none;
 	}
-	.threebox-mobile {
-		display: auto;
-	}
-}
-
-.threebox-container {
-    margin: auto;
-    overflow: hidden;
-    width: 100%;
-    
-}
-
-.threebox {
-    font-size: 1.14vw;
-    text-align: left;
-    margin: auto;
-    float: left;
-    font-weight: 300;
-    width: 30%;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom:50px;
-}
-
-.threebox-title {
-    font-size: 1.24vw;
-    text-align: left;
-    margin: auto;
-    float: left;
-    font-weight: 400;
-    width: 30%;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom:50px;
-}
-	
-}
-
-.back {
-  /*  font-size:1vw; */
-    position: absolute;
-    bottom:1%;
- /*   top: 50%;
-    left:-10%; */
 }
