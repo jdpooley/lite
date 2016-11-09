@@ -141,11 +141,11 @@ p:last-child {
 .threebox p{
 }
 
-.threebox h1 {
+.threebox h2 {
     font-size: 1.2vw;	
 }
 
-.threebox h1:active p{
+.threebox h2:active p{
     display: block;	
 }
 
