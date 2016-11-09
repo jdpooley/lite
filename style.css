@@ -119,33 +119,6 @@ p:last-child {
 }
 
 
-.threebox-container {
-    margin: auto;
-    overflow: hidden;
-    width: 100%;
-    
-}
-
-.threebox-container h2 {
-    font-size: 1.2vw;	
-}
-
-.threebox-container h2:active + p{
-    display: block;	
-}
-
-
-.threebox {
-    font-size: 1.14vw;
-    text-align: left;
-    font-weight: 300;
-    width: 50vw;
-    display:none;
-}
-
-
-
-
 /* Responsive Media Queries */
 @media only screen and (max-width: 1100px) {	
 	
