@@ -1,11 +1,5 @@
-@font-face {
-font-family: 'HelveticaNeueLTStd-Lt';
-	src: url("/HelveticaNeueLTStd-Lt.otf") format("opentype");
-}
-
 html {
-/*	font-family: 'Lato', sans-serif; */
-	font-family: 'HelveticaNeueLTStd-Lt';
+font-family: 'Lato', sans-serif;
 }	
 
 
