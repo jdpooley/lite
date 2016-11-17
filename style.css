@@ -1,10 +1,10 @@
 html {
 /*	font-family: 'Lato', sans-serif; */
-	font-family: HelveticaNeueLTStd-Lt;
+	font-family: 'HelveticaNeueLTStd-Lt';
 }	
 
 @font-face {
-font-family: HelveticaNeueLTStd-Lt;
+font-family: 'HelveticaNeueLTStd-Lt';
 	src: url("/HelveticaNeueLTStd-Lt.otf") format("opentype");
 }
 	
