@@ -70,7 +70,7 @@ img {
   opacity: 0;
   z-index: -1;
   position: fixed;
-  background-size: contain;    
+  max-width: 1440px;   
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
