@@ -68,6 +68,7 @@ body.night {
 
 img {
   opacity: 1;
+  img-size: 1vw;
 }
 
 a {
