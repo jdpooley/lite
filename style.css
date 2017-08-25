@@ -100,10 +100,7 @@ a:active {
 }
 
 h1 {
-	position: fixed;
-	top: -99999px;
-	left: -99999px;
-	opacity: 0;
+
 	-webkit-user-select: none;
 }
 
